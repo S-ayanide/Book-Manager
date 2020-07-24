@@ -7,6 +7,9 @@ import {
 	getBooksQuery,
 } from "../../queries/queries";
 
+// Styles
+import "./styles.css";
+
 const displayAuthors = (authors, loading) => {
 	return loading === true ? (
 		<option disabled>Loading Authors</option>

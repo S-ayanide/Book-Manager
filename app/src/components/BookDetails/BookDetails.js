@@ -2,6 +2,9 @@ import React from "react";
 import { graphql } from "react-apollo";
 import { getBookQuery } from "../../queries/queries";
 
+// Styles
+import "./styles.css";
+
 const BookDetails = (props) => {
 	const displayBookDetails = () => {
 		const { book } = props.data;

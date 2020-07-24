@@ -5,6 +5,9 @@ import { getBooksQuery } from "../../queries/queries";
 // Component
 import BookDetails from "../BookDetails/BookDetails";
 
+// Styles
+import "./styles.css";
+
 const BookList = (props) => {
 	const [selected, setSelectedBook] = useState(undefined);
 
